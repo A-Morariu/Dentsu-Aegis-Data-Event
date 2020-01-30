@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[12pt,a4paper]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -9,13 +9,16 @@
 \newcommand{\logit}{\text{logit}}
 \newcommand{\R}{\mathbb{R}}
 
-\title{Dentsu Aegis Event}
+\title{Dentsu Aegis Data Event}
 \author{Ryerson Applied Math M.Sc Group}
 \date{January 30, 2020}
 
 \begin{document}
 
 \maketitle
+\tableofcontents
+
+\chapter{Preliminary Thoughts}
 
 \section{Introduction}
 I set this up for us to have a place to write any notes before going into the event and during so we can share any helpful tool and resources we have. From the little reading I've done it seems like we'll be looking at an online marketing exercise. Most of the services they've provide have been using AI and ML algorithms in order to provide targeted ads (eg. using face recognition on social media to determine which people have pets and push pet food ads through their feed). \\
@@ -53,4 +56,11 @@ This problem is one of filtering. Provided with some information about a user, w
 \subsection{Product Recommendation}
 In simple terms, this is a matching exercise. Provided with some information about a client, we should be able to offer some products that they are more likely to be interested in. Solving this problem can be done using a multinomial logistic regression where the dimension of $p$ (the vector containing probabilities of "success") is equal to the number of items in your inventory. The model should be trained on previous purchasing data. It is worth noting that majority of the covariates will be factor variables so regression may appear to be a poor fit. 
 
+\chapter{Data Work}
+
+\section{The Dataset}
+
+\section{EDA}
+
+\section{Insight and Solutions}
 \end{document}
