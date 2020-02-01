@@ -45,8 +45,8 @@ new_names <- c("Category",
 colnames(cannabis_2018) <- new_names
 colnames(cannabis_2019) <- new_names
 
-directional_extraction <- function(cannabis_dataset, response){
-     # response has "%Row" or "%Col 
+directional_extraction <- function(cannabis_dataset, response = "RowCol"){
+     # response has "%Row" or "%Col" pr "RowCol"
      if(response == "%Row"){
           extraction <- cannabis_dataset %>% 
                filter(ResponseMetric == "%Row") %>% 
@@ -55,6 +55,10 @@ directional_extraction <- function(cannabis_dataset, response){
           extraction <- cannabis_dataset %>% 
                filter(ResponseMetric == "%Col") %>% 
                select(-Totals)     
+     } else if(response == "RowCol"){
+             extraction <- cannabis_dataset %>% 
+                     filter(ResponseMetric == "%Col" | ResponseMetric == "%Row") %>% 
+                     select(-Totals) 
      }
      
      return(extraction)
