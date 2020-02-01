@@ -67,4 +67,4 @@ directional_extraction <- function(cannabis_dataset, response = "RowCol"){
 ### use the output of this without the first 3 columns and run a PCA 
 ### store them as a matrix and store column 1 as a vector in order to match the questions 
 
-
+# further filtering 

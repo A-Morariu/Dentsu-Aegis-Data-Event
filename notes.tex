@@ -68,9 +68,22 @@ At first glimpse, this project seems like it should be approached as a \textit{s
 
 
 \section{The Dataset}
-THe data comes in several files looking at different aspects of the cannabis market. These will be combined in order to give insight into how the market feels about the product and potential habbits. 
+THe data comes in several files looking at different aspects of the cannabis market. These will be combined in order to give insight into how the market feels about the product and potential habbits. All of the data is in the form of a cross-tabulated table providing the summary of a survery adminitered in 2018 and 2019 respectively (with the 2019 being more compreshensive). 
 
 \section{EDA}
+
+\section{Analysis of Data}
+
+\subsection{Annual Changes}
+For this section we track the movements of people's votes by using the 2018 survey as a baseline. This can be done via a straight differencing.
+
+\subsection{PCA on Various directions}
+Done by Kenji 
+
+\subsection{Survey Assessment}
+Since the data collected includes questions, these themselves should be analyzed in order to get an idea of any bias that was introducted into the data via influential language. The first column of the data set can be used in order to do a sentiment analysis (a scoring system is used to see if we have overly negative or overly positive language). The outcome of each question, and the survey as a whole can be recorded. A thresholding system can be implemented on the differences to see if perception really has improved over the years (this should be particularly interesting in the proportions of "older" people). The idea here is that if we have a highly negative question, even small improvements can be seen as impactful (maybe more impactful overall) and thus should be reweighted. 
+
+This can all lead into the creation of a metric tracking the perception of the cannabis industry based on the results of this survey year to year as well as any additinal revenue data we can get our hands on. Mathematically, this will be a weighted average and displayed in a nice big font to make it look like we "scored" the market. 
 
 \section{Insight and Solutions}
 To be done in R Markdown or Jupyter Notebooks. Here is a an extra step.
