@@ -45,6 +45,22 @@ new_names <- c("Category",
 colnames(cannabis_2018) <- new_names
 colnames(cannabis_2019) <- new_names
 
+directional_extraction <- function(cannabis_dataset, response){
+     # response has "%Row" or "%Col 
+     if(response == "%Row"){
+          extraction <- cannabis_dataset %>% 
+               filter(ResponseMetric == "%Row") %>% 
+               select(-Totals)     
+     } else if(response == "%Col") {
+          extraction <- cannabis_dataset %>% 
+               filter(ResponseMetric == "%Col") %>% 
+               select(-Totals)     
+     }
+     
+     return(extraction)
+}
 
+### use the output of this without the first 3 columns and run a PCA 
+### store them as a matrix and store column 1 as a vector in order to match the questions 
 
 
