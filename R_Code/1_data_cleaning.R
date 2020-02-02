@@ -84,4 +84,8 @@ can_supply <- can_supply %>% dplyr::select(type = "Type of use",
                                            value = VALUE) 
 
 
+### Time joined data
+
+cannabis_temporal_data <- cannabis_2018 %>% inner_join(cannabis_2019, by = "Category")
+
 
