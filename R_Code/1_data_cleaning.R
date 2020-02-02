@@ -67,4 +67,21 @@ directional_extraction <- function(cannabis_dataset, response = "RowCol"){
 ### use the output of this without the first 3 columns and run a PCA 
 ### store them as a matrix and store column 1 as a vector in order to match the questions 
 
-# further filtering 
+### Stats Can Price Data
+
+can_prices <- read_csv("Cannabis_Data/stats_can_cannabis_prices.csv")
+
+can_prices <- can_prices %>% 
+        dplyr::select(year = REF_DATE, region = GEO, type = "Cannabis price", price = VALUE) 
+
+### Stats Can Supply Data
+
+can_supply <- read_csv("Cannabis_Data/stats_can_cannabis_supply.csv")
+
+can_supply <- can_supply %>% dplyr::select(type = "Type of use", 
+                                           purpose = Indicator,
+                                           year = REF_DATE, 
+                                           value = VALUE) 
+
+
+

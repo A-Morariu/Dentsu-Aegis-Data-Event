@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1580543223 "notes.tex" "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.pdf" "notes" 1580543224
+["pdflatex"] 1580543223 "notes.tex" "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.pdf" "notes" 1580673241
   "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.aux" 1580543223 2733 597ce40928dd164f9ebcb983bc891b28 "pdflatex"
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -70,14 +70,14 @@
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "notes.aux" 1580543223 2733 597ce40928dd164f9ebcb983bc891b28 "pdflatex"
   "notes.out" 1580543223 1014 9654a39c91106b9a051c969d65a21a23 "pdflatex"
-  "notes.tex" 1580543223 6174 23447132c6b729d5ab42c61c2fba61ce ""
+  "notes.tex" 1580673240 6174 23447132c6b729d5ab42c61c2fba61ce ""
   "notes.toc" 1580543223 1279 150d9aba54a924d92b519d0013a60fa1 "pdflatex"
   (generated)
-  "notes.aux"
+  "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.aux"
+  "notes.out"
+  "notes.pdf"
+  "notes.log"
   "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.log"
   "notes.toc"
-  "notes.out"
-  "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.aux"
-  "notes.log"
+  "notes.aux"
   "/Users/alinmorariu/Documents/GitHub/Dentsu-Aegis-Data-Event/notes.pdf"
-  "notes.pdf"
