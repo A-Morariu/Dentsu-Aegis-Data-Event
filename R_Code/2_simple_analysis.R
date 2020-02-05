@@ -38,3 +38,4 @@ cannabis_production_plot <- can_supply %>%
 
 cannabis_production_plot
 ggsave("cannabis_production_plot.jpg")
+
